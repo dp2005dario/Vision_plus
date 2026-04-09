@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Visión+</string>
+    <string-array name="meses_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+
+    <string-array name="provincias_spain_array">
+        <item>Selecciona Provincia...</item>
+        <item>Álava</item> <item>Albacete</item> <item>Alicante</item> <item>Almería</item>
+        <item>Asturias</item> <item>Ávila</item> <item>Badajoz</item> <item>Barcelona</item>
+        <item>Burgos</item> <item>Cáceres</item> <item>Cádiz</item> <item>Cantabria</item>
+        <item>Castellón</item> <item>Ciudad Real</item> <item>Córdoba</item> <item>La Coruña</item>
+        <item>Cuenca</item> <item>Gerona</item> <item>Granada</item> <item>Guadalajara</item>
+        <item>Guipúzcoa</item> <item>Huelva</item> <item>Huesca</item> <item>Islas Baleares</item>
+        <item>Jaén</item> <item>León</item> <item>Lérida</item> <item>Lugo</item>
+        <item>Madrid</item> <item>Málaga</item> <item>Murcia</item> <item>Navarra</item>
+        <item>Orense</item> <item>Palencia</item> <item>Las Palmas</item> <item>Pontevedra</item>
+        <item>La Rioja</item> <item>Salamanca</item> <item>Segovia</item> <item>Sevilla</item>
+        <item>Soria</item> <item>Tarragona</item> <item>Santa Cruz de Tenerife</item> <item>Teruel</item>
+        <item>Toledo</item> <item>Valencia</item> <item>Valladolid</item> <item>Vizcaya</item>
+        <item>Zamora</item> <item>Zaragoza</item> <item>Ceuta</item> <item>Melilla</item>
+    </string-array>
 </resources>
