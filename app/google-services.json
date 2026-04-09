@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537123117674",
+    "project_id": "visionplus-76457",
+    "storage_bucket": "visionplus-76457.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537123117674:android:66af4eb05d981913980813",
+        "android_client_info": {
+          "package_name": "com.example.visin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFTTo7PlNcZBeKF9UW2mngMNjfyU-EOdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

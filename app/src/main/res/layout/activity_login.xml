@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bgColorCrema"
+            android:fillViewport="true"
+            tools:context=".LoginActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center_horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start|center_vertical"
+                android:layout_marginBottom="30dp">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/visionlogo"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Logo de Visión+" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Tu bastón virtual inteligente&quot;"
+                    android:textSize="14sp"
+                    android:textStyle="italic|bold"
+                    android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INICIAR SESIÓN"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+        <EditText
+                android:id="@+id/etUsuarioLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/rounded_edittext_bg"
+                android:inputType="textPersonName"
+                android:textSize="24sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:hint="Ej: juan_perez" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="12dp" />
+
+        <EditText
+                android:id="@+id/etPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/rounded_edittext_bg"
+                android:inputType="textPassword"
+                android:textSize="24sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:hint="********" />
+
+        <Button
+                android:id="@+id/btnAccederLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Acceder"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorBotonesMain"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+                android:id="@+id/btnGoogleLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_white_rounded"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iniciar sesión con "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_google"
+                    android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/btnFacebookLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_white_rounded"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iniciar sesión con "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_facebook"
+                    android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btnCrearCuentaLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="¿No tienes cuenta?"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorBotonesMain"
+                android:layout_marginBottom="8dp" />
+
+        <Button
+                android:id="@+id/btnEntrarInvitadoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Entrar como Invitado"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorBotonesMain"
+                android:layout_marginBottom="8dp" />
+
+        <Button
+                android:id="@+id/btnSalirLogin"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Salir Visión+"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorBotonesMain"
+                android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
