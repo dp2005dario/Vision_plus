@@ -11,4 +11,7 @@
     <color name="google_blue">#4285F4</color>
     <color name="facebook_blue">#1877F2</color>
     <color name="white_pure">#FFFFFF</color>
+
+    <color name="amarilloVision">#FFD54F</color>
+    <color name="redSalir">#C60000</color>
 </resources>

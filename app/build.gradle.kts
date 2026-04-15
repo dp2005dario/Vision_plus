@@ -30,6 +30,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
+
 dependencies {
     // Firebase BoM (Control de versiones automático)
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
@@ -38,6 +39,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-firestore")
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-storage:20.3.0")
 
     // --- ESTO ES LO QUE NECESITABAS PARA EL LOGIN DE GOOGLE ---
     implementation("com.google.android.gms:play-services-auth:21.1.1")

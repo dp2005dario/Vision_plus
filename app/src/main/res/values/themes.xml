@@ -44,4 +44,27 @@
         <item name="cornerSize">50%</item>
     </style>
 
+    <style name="BotonMenuHome">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/rounded_edittext_bg</item>
+        <item name="android:backgroundTint">@color/colorBotonesMain</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="BotonMenuHomeAmarillo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/rounded_edittext_bg</item>
+        <item name="android:backgroundTint">@color/amarilloVision</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
 </resources>

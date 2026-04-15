@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "537123117674-qf0ogsesnu3hqgbbe486pdah9knedaop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visin",
+            "certificate_hash": "4a5d4290044e84cdd20dd6ea8a0d72930e27260e"
+          }
+        },
+        {
           "client_id": "537123117674-jqmrh6uumm5kjnlsfk3aopoi0mpjalut.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "537123117674",
+    "project_id": "visionplus-76457",
+    "storage_bucket": "visionplus-76457.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537123117674:android:66af4eb05d981913980813",
+        "android_client_info": {
+          "package_name": "com.example.visin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537123117674-qf0ogsesnu3hqgbbe486pdah9knedaop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visin",
+            "certificate_hash": "4a5d4290044e84cdd20dd6ea8a0d72930e27260e"
+          }
+        },
+        {
+          "client_id": "537123117674-jqmrh6uumm5kjnlsfk3aopoi0mpjalut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFTTo7PlNcZBeKF9UW2mngMNjfyU-EOdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537123117674-jqmrh6uumm5kjnlsfk3aopoi0mpjalut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
